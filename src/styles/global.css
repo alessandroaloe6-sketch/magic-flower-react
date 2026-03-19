@@ -173,7 +173,7 @@ section { padding: 7rem 2rem; }
   background: none;
   border: none;
 }
-@media(max-width:900px) {
+@media(max-width:1099px) {
   .nav-links, .nav-cta { display: none; }
   .hamburger { display: flex; }
   #nav, #nav.scrolled { padding: 1.2rem 1.5rem; }
