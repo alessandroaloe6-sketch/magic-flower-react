@@ -18,8 +18,13 @@ export const CONTACT = {
 
 // ── Orari ─────────────────────────────────────────────────
 export const ORARI = [
-  { giorno: 'Lunedì – Venerdì', orario: '9:00 – 19:00' },
-  { giorno: 'Sabato',           orario: '9:00 – 18:00' },
+  { giorno: 'Lunedì – Sabato',  orario: '9:00 – 12:30 / 16:00 – 19:00' },
+  { giorno: 'Domenica',         orario: '9:00 – 13:00 (solo invernale)' },
+]
+
+export const ORARI_ESTATE = [
+  { giorno: 'Lunedì – Venerdì', orario: '9:00 – 13:00 / 16:00 – 19:30' },
+  { giorno: 'Sabato',           orario: '9:00 – 13:00' },
   { giorno: 'Domenica',         orario: 'Chiuso' },
 ]
 
