@@ -65,8 +65,9 @@ export default function Footer() {
             <li><a href="#">{CONTACT.address}, Ozzano (BO)</a></li>
             <li><a href={CONTACT.phoneHref}>{CONTACT.phone}</a></li>
             <li><a href={`mailto:${CONTACT.email}`}>{CONTACT.email}</a></li>
-            <li><a href="#">Lun–Ven: 9:00–19:00</a></li>
-            <li><a href="#">Sab: 9:00–18:00</a></li>
+            <li><a href="#">Dom: 9:00–13:00 (invernale)</a></li>
+            <li><a href="#">Estate Lun–Ven: 9:00–13:00 / 16:00–19:30</a></li>
+            <li><a href="#">Estate Sab: 9:00–13:00</a></li>
             <li>
               <a href={CONTACT.mapsUrl} target="_blank" rel="noopener noreferrer">
                 📍 Come raggiungerci
